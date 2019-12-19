@@ -1,0 +1,216 @@
+@charset "utf-8";
+
+/*--------------------컨테이너시작-------------------*/
+
+#container{}
+
+.mainSlider{
+	height:600px;
+	position:relative;
+	overflow:hidden;
+}
+.mainSlider img{
+	position:absolute;
+	left:50%;
+	margin-left:-960px;
+}
+
+
+
+.sliderBtn{
+	position:absolute;
+}
+.sliderBtn li{
+	float:left;
+}
+.sliderBtn a{
+	display:block;
+}
+
+
+.sliderLBtn{
+	bottom:30px;
+	left:50%;
+	margin-left:-600px;
+	
+}
+.sliderLBtn li{
+	width:16px;
+	height:16px;
+	background:url(../images/main/blet_visual.png) no-repeat;
+	text-indent:-9999px;  /*텍스트빼기 정확한 방법은 아님 저 멀리 보내버림 텍스트*/
+	margin-right:3px;
+	
+}
+.sliderLBtn a{}
+.sliderLBtn .on{
+	background-position:0 -16px;
+}
+
+
+
+.sliderRBtn{
+	right:50%;
+	margin-right:-600px;
+	bottom:0;
+	
+}
+.sliderRBtn li{
+	width:45px;
+	height:45px;
+	background:url(../images/main/btn_visual_cnt.png) no-repeat -46px 0;
+	text-indent:-9999px;
+	margin-left:1px;
+}
+.sliderRBtn a{
+	display:block;
+	height:100%;
+}
+
+.sliderRBtn li:first-child{
+	background-position:0 0;
+}
+.sliderRBtn li:last-child{
+	background-position:-92px 0;
+}
+
+
+
+
+
+/*------------------------Content01------------------------*/
+
+
+.mainCon01{
+	background:#1C97FE;
+	padding:50px 0;
+}
+
+.con01{
+	float:left;
+	width:273px;
+	margin-right:36px;
+}
+
+.con01:last-child{
+	margin-right:0;
+}
+.con01 a{
+	color:#fff;
+	font-size:12px;
+}
+.con01 h3{
+	color:#fff;
+}
+.con01 img{
+	width:100%;        /* 이미지가 넘쳐서 width값 100%준거임*/
+	margin:10px 0;
+}
+.con01 p{}
+
+
+/* content 02*/
+.mainCon02{
+	background:url(../images/main/brandSite_bg.png) no-repeat;
+	text-align:center;
+	padding:50px 0;
+}
+.mainCon02 h2{
+	margin-bottom:30px;
+	
+}
+
+
+.con02{
+	width:273px;
+	margin-right:36px;
+	float:left;
+}
+.con02:last-child{
+	margin-right:0;
+}
+
+.con02 img{}
+.con02 p{
+	font-weight:bold;
+	padding:20px 0;
+}
+.con02 p span{
+	font-size:12px;
+}
+
+.viewBtn{
+	width:130px;
+	margin:0 auto;
+	background:#263d92;
+	line-height:40px;
+	border-radius:20px;
+	letter-spacing:2px;
+}
+.viewBtn a{
+	color:#FFF;
+	display:block;
+}
+
+
+
+/* content 03 */
+.mainCon03{
+	padding:50px 0;
+}
+.mainCon03 h2{
+	text-align:center;
+	margin-bottom:30px;
+}
+.mainCon03 h2 img{}
+
+.con03{
+	width:376px;
+	margin-right:36px;
+	float:left;
+	box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+.con03:last-child{
+	margin-right:0;
+}
+
+.con03 a{
+	color:#000;
+}
+.con03 img{
+	width:100%;            /* 이미지가 넘쳐흘러서 width에 100% 줘서 맞춘거*/
+	display:block;
+}
+
+.brandInfo{
+	padding:20px;
+}
+.brandInfo h3{
+	margin-bottom:5px;
+}
+.brandInfo p{
+	margin-bottom:20px;	
+}
+
+.moreBtn{
+	width:110px;
+	line-height:40px;
+	background:#1c97fe;
+	color:#fff;
+	text-align:center;
+	border-radius:20px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
